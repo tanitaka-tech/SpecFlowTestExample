@@ -3,7 +3,7 @@ using Xunit;
 namespace SpecFlowTestExample.Specs;
 
 [Binding]
-public class ForPetRoomThermometerStep
+public class ForPetRoomThermometerTest
 {
     ForPetThermometer _forPetThermometer;
 

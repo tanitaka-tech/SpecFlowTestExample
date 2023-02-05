@@ -108,16 +108,16 @@ namespace SpecFlowTestExample.Specs.Features
             else
             {
                 this.ScenarioStart();
-#line 7
+#line 8
   testRunner.Given("温度が23.9", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 8
+#line 9
   testRunner.Then("変換後の文字列は\"寒い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 9
-  testRunner.Given("温度が0.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 11
+  testRunner.Given("温度が20.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 10
+#line 12
   testRunner.Then("変換後の文字列は\"寒い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -132,7 +132,7 @@ namespace SpecFlowTestExample.Specs.Features
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("温度が24.0度以上26.0度未満の時は\"快適\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 12
+#line 14
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -152,16 +152,22 @@ namespace SpecFlowTestExample.Specs.Features
             else
             {
                 this.ScenarioStart();
-#line 13
+#line 16
   testRunner.Given("温度が24.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 14
+#line 17
   testRunner.Then("変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 15
+#line 19
+  testRunner.Given("温度が25.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 20
+  testRunner.Then("変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 22
   testRunner.Given("温度が25.9", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 16
+#line 23
   testRunner.Then("変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -176,7 +182,7 @@ namespace SpecFlowTestExample.Specs.Features
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("温度が26.0度以上の時は\"暑い\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 18
+#line 25
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -196,16 +202,16 @@ namespace SpecFlowTestExample.Specs.Features
             else
             {
                 this.ScenarioStart();
-#line 19
+#line 27
   testRunner.Given("温度が26.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 20
+#line 28
   testRunner.Then("変換後の文字列は\"暑い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 21
-  testRunner.Given("温度が100.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 30
+  testRunner.Given("温度が30.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 22
+#line 31
   testRunner.Then("変換後の文字列は\"暑い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
