@@ -5,7 +5,7 @@ namespace SpecFlowTestExample.Specs;
 [Binding]
 public class ForPetRoomThermometerTest
 {
-    ForPetThermometer _forPetThermometer;
+    ForPetThermometer _forPetThermometer = null!;
 
     [Given(@"温度が(.*)")]
     public void Given温度が(float p0)
