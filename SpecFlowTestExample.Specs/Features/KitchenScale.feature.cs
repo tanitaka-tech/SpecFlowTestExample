@@ -19,7 +19,7 @@ namespace SpecFlowTestExample.Specs.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.9.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public partial class 重さを文字列に変換するFeature : object, Xunit.IClassFixture<重さを文字列に変換するFeature.FixtureData>, System.IDisposable
+    public partial class キッチンスケールで測った重さを文字列に変換するFeature : object, Xunit.IClassFixture<キッチンスケールで測った重さを文字列に変換するFeature.FixtureData>, System.IDisposable
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -31,7 +31,7 @@ namespace SpecFlowTestExample.Specs.Features
 #line 1 "KitchenScale.feature"
 #line hidden
         
-        public 重さを文字列に変換するFeature(重さを文字列に変換するFeature.FixtureData fixtureData, SpecFlowTestExample_Specs_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        public キッチンスケールで測った重さを文字列に変換するFeature(キッチンスケールで測った重さを文字列に変換するFeature.FixtureData fixtureData, SpecFlowTestExample_Specs_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
         {
             this._testOutputHelper = testOutputHelper;
             this.TestInitialize();
@@ -40,7 +40,7 @@ namespace SpecFlowTestExample.Specs.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "重さを文字列に変換する", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "キッチンスケールで測った重さを文字列に変換する", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -80,14 +80,14 @@ namespace SpecFlowTestExample.Specs.Features
             this.TestTearDown();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="重さがマイナスなら\"EEEE\"に変換する")]
-        [Xunit.TraitAttribute("FeatureTitle", "重さを文字列に変換する")]
-        [Xunit.TraitAttribute("Description", "重さがマイナスなら\"EEEE\"に変換する")]
-        public virtual void 重さがマイナスならEEEEに変換する()
+        [Xunit.SkippableFactAttribute(DisplayName="キッチンスケールで測った重さがマイナスなら\"EEEE\"に変換する")]
+        [Xunit.TraitAttribute("FeatureTitle", "キッチンスケールで測った重さを文字列に変換する")]
+        [Xunit.TraitAttribute("Description", "キッチンスケールで測った重さがマイナスなら\"EEEE\"に変換する")]
+        public virtual void キッチンスケールで測った重さがマイナスならEEEEに変換する()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("重さがマイナスなら\"EEEE\"に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("キッチンスケールで測った重さがマイナスなら\"EEEE\"に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 5
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -109,16 +109,54 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 7
- testRunner.Given("重さが-1g", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("キッチンスケールで測った重さが-1g", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 8
- testRunner.Then("重さを変換後の文字列は\"EEEE\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("キッチンスケールで測った重さを変換後の文字列は\"EEEE\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 10
- testRunner.Given("重さが-10g", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("キッチンスケールで測った重さが-10g", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 11
- testRunner.Then("重さを変換後の文字列は\"EEEE\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("キッチンスケールで測った重さを変換後の文字列は\"EEEE\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.SkippableFactAttribute(DisplayName="キッチンスケールで測った重さが2000g以上なら\"EEEE\"に変換する")]
+        [Xunit.TraitAttribute("FeatureTitle", "キッチンスケールで測った重さを文字列に変換する")]
+        [Xunit.TraitAttribute("Description", "キッチンスケールで測った重さが2000g以上なら\"EEEE\"に変換する")]
+        public virtual void キッチンスケールで測った重さが2000G以上ならEEEEに変換する()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("キッチンスケールで測った重さが2000g以上なら\"EEEE\"に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 13
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 15
+ testRunner.Given("キッチンスケールで測った重さが2001g", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 16
+ testRunner.Then("キッチンスケールで測った重さを変換後の文字列は\"EEEE\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -131,12 +169,12 @@ this.ScenarioInitialize(scenarioInfo);
             
             public FixtureData()
             {
-                重さを文字列に変換するFeature.FeatureSetup();
+                キッチンスケールで測った重さを文字列に変換するFeature.FeatureSetup();
             }
             
             void System.IDisposable.Dispose()
             {
-                重さを文字列に変換するFeature.FeatureTearDown();
+                キッチンスケールで測った重さを文字列に変換するFeature.FeatureTearDown();
             }
         }
     }
