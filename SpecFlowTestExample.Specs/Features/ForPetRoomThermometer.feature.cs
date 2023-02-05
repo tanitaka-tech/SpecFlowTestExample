@@ -19,7 +19,7 @@ namespace SpecFlowTestExample.Specs.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.9.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public partial class 温度を快適さを表す文字列に変換するFeature : object, Xunit.IClassFixture<温度を快適さを表す文字列に変換するFeature.FixtureData>, System.IDisposable
+    public partial class ペット用室温計で測った温度を快適さを表す文字列に変換するFeature : object, Xunit.IClassFixture<ペット用室温計で測った温度を快適さを表す文字列に変換するFeature.FixtureData>, System.IDisposable
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -31,7 +31,7 @@ namespace SpecFlowTestExample.Specs.Features
 #line 1 "ForPetRoomThermometer.feature"
 #line hidden
         
-        public 温度を快適さを表す文字列に変換するFeature(温度を快適さを表す文字列に変換するFeature.FixtureData fixtureData, SpecFlowTestExample_Specs_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        public ペット用室温計で測った温度を快適さを表す文字列に変換するFeature(ペット用室温計で測った温度を快適さを表す文字列に変換するFeature.FixtureData fixtureData, SpecFlowTestExample_Specs_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
         {
             this._testOutputHelper = testOutputHelper;
             this.TestInitialize();
@@ -40,7 +40,7 @@ namespace SpecFlowTestExample.Specs.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "温度を快適さを表す文字列に変換する", "\tペットを飼うのは大変。部屋の温度を快適な温度に保つ必要があるため。\n\tこのペット用室温計で、ペットに快適な温度かどうかを確認できるようにしたい。", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "ペット用室温計で測った温度を快適さを表す文字列に変換する", "\tペットを飼うのは大変。部屋の温度を快適な温度に保つ必要があるため。\n\tこのペット用室温計で、ペットに快適な温度かどうかを確認できるようにしたい。", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -80,14 +80,14 @@ namespace SpecFlowTestExample.Specs.Features
             this.TestTearDown();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="温度が24.0度未満の時は\"寒い\"という文字列に変換する")]
-        [Xunit.TraitAttribute("FeatureTitle", "温度を快適さを表す文字列に変換する")]
-        [Xunit.TraitAttribute("Description", "温度が24.0度未満の時は\"寒い\"という文字列に変換する")]
-        public virtual void 温度が24_0度未満の時は寒いという文字列に変換する()
+        [Xunit.SkippableFactAttribute(DisplayName="ペット用室温計で測った温度が24.0度未満の時は\"寒い\"という文字列に変換する")]
+        [Xunit.TraitAttribute("FeatureTitle", "ペット用室温計で測った温度を快適さを表す文字列に変換する")]
+        [Xunit.TraitAttribute("Description", "ペット用室温計で測った温度が24.0度未満の時は\"寒い\"という文字列に変換する")]
+        public virtual void ペット用室温計で測った温度が24_0度未満の時は寒いという文字列に変換する()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("温度が24.0度未満の時は\"寒い\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ペット用室温計で測った温度が24.0度未満の時は\"寒い\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 7
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -109,29 +109,29 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 9
- testRunner.Given("温度が23.9度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("ペット用室温計で測った温度が23.9度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 10
- testRunner.Then("温度を変換後の文字列は\"寒い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("ペット用室温計で測った温度を変換後の文字列は\"寒い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 12
- testRunner.Given("温度が20.0度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("ペット用室温計で測った温度が20.0度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 13
- testRunner.Then("温度を変換後の文字列は\"寒い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("ペット用室温計で測った温度を変換後の文字列は\"寒い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="温度が24.0度以上26.0度未満の時は\"快適\"という文字列に変換する")]
-        [Xunit.TraitAttribute("FeatureTitle", "温度を快適さを表す文字列に変換する")]
-        [Xunit.TraitAttribute("Description", "温度が24.0度以上26.0度未満の時は\"快適\"という文字列に変換する")]
-        public virtual void 温度が24_0度以上26_0度未満の時は快適という文字列に変換する()
+        [Xunit.SkippableFactAttribute(DisplayName="ペット用室温計で測った温度が24.0度以上26.0度未満の時は\"快適\"という文字列に変換する")]
+        [Xunit.TraitAttribute("FeatureTitle", "ペット用室温計で測った温度を快適さを表す文字列に変換する")]
+        [Xunit.TraitAttribute("Description", "ペット用室温計で測った温度が24.0度以上26.0度未満の時は\"快適\"という文字列に変換する")]
+        public virtual void ペット用室温計で測った温度が24_0度以上26_0度未満の時は快適という文字列に変換する()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("温度が24.0度以上26.0度未満の時は\"快適\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ペット用室温計で測った温度が24.0度以上26.0度未満の時は\"快適\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 15
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -153,35 +153,35 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 17
- testRunner.Given("温度が24.0度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("ペット用室温計で測った温度が24.0度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 18
- testRunner.Then("温度を変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("ペット用室温計で測った温度を変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 20
- testRunner.Given("温度が25.0度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("ペット用室温計で測った温度が25.0度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 21
- testRunner.Then("温度を変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("ペット用室温計で測った温度を変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 23
- testRunner.Given("温度が25.9度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("ペット用室温計で測った温度が25.9度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 24
- testRunner.Then("温度を変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("ペット用室温計で測った温度を変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="温度が26.0度以上の時は\"暑い\"という文字列に変換する")]
-        [Xunit.TraitAttribute("FeatureTitle", "温度を快適さを表す文字列に変換する")]
-        [Xunit.TraitAttribute("Description", "温度が26.0度以上の時は\"暑い\"という文字列に変換する")]
-        public virtual void 温度が26_0度以上の時は暑いという文字列に変換する()
+        [Xunit.SkippableFactAttribute(DisplayName="ペット用室温計で測った温度が26.0度以上の時は\"暑い\"という文字列に変換する")]
+        [Xunit.TraitAttribute("FeatureTitle", "ペット用室温計で測った温度を快適さを表す文字列に変換する")]
+        [Xunit.TraitAttribute("Description", "ペット用室温計で測った温度が26.0度以上の時は\"暑い\"という文字列に変換する")]
+        public virtual void ペット用室温計で測った温度が26_0度以上の時は暑いという文字列に変換する()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("温度が26.0度以上の時は\"暑い\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ペット用室温計で測った温度が26.0度以上の時は\"暑い\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 26
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -203,16 +203,16 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 28
- testRunner.Given("温度が26.0度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("ペット用室温計で測った温度が26.0度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 29
- testRunner.Then("温度を変換後の文字列は\"暑い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("ペット用室温計で測った温度を変換後の文字列は\"暑い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 31
- testRunner.Given("温度が30.0度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("ペット用室温計で測った温度が30.0度", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 32
- testRunner.Then("温度を変換後の文字列は\"暑い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("ペット用室温計で測った温度を変換後の文字列は\"暑い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -225,12 +225,12 @@ this.ScenarioInitialize(scenarioInfo);
             
             public FixtureData()
             {
-                温度を快適さを表す文字列に変換するFeature.FeatureSetup();
+                ペット用室温計で測った温度を快適さを表す文字列に変換するFeature.FeatureSetup();
             }
             
             void System.IDisposable.Dispose()
             {
-                温度を快適さを表す文字列に変換するFeature.FeatureTearDown();
+                ペット用室温計で測った温度を快適さを表す文字列に変換するFeature.FeatureTearDown();
             }
         }
     }

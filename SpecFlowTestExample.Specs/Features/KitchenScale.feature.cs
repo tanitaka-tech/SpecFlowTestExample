@@ -80,14 +80,14 @@ namespace SpecFlowTestExample.Specs.Features
             this.TestTearDown();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="キッチンスケールで測った重さがマイナスなら\"EEEE\"に変換する")]
+        [Xunit.SkippableFactAttribute(DisplayName="キッチンスケールで測った重さがマイナスなら\"EEEE\"という文字列に変換する")]
         [Xunit.TraitAttribute("FeatureTitle", "キッチンスケールで測った重さを文字列に変換する")]
-        [Xunit.TraitAttribute("Description", "キッチンスケールで測った重さがマイナスなら\"EEEE\"に変換する")]
-        public virtual void キッチンスケールで測った重さがマイナスならEEEEに変換する()
+        [Xunit.TraitAttribute("Description", "キッチンスケールで測った重さがマイナスなら\"EEEE\"という文字列に変換する")]
+        public virtual void キッチンスケールで測った重さがマイナスならEEEEという文字列に変換する()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("キッチンスケールで測った重さがマイナスなら\"EEEE\"に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("キッチンスケールで測った重さがマイナスなら\"EEEE\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 5
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -124,14 +124,14 @@ this.ScenarioInitialize(scenarioInfo);
             this.ScenarioCleanup();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="キッチンスケールで測った重さが2000g以上なら\"EEEE\"に変換する")]
+        [Xunit.SkippableFactAttribute(DisplayName="キッチンスケールで測った重さが2000g以上なら\"EEEE\"という文字列に変換する")]
         [Xunit.TraitAttribute("FeatureTitle", "キッチンスケールで測った重さを文字列に変換する")]
-        [Xunit.TraitAttribute("Description", "キッチンスケールで測った重さが2000g以上なら\"EEEE\"に変換する")]
-        public virtual void キッチンスケールで測った重さが2000G以上ならEEEEに変換する()
+        [Xunit.TraitAttribute("Description", "キッチンスケールで測った重さが2000g以上なら\"EEEE\"という文字列に変換する")]
+        public virtual void キッチンスケールで測った重さが2000G以上ならEEEEという文字列に変換する()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("キッチンスケールで測った重さが2000g以上なら\"EEEE\"に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("キッチンスケールで測った重さが2000g以上なら\"EEEE\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 13
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -162,14 +162,14 @@ this.ScenarioInitialize(scenarioInfo);
             this.ScenarioCleanup();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="キッチンスケールで測った重さがそれ以外なら\"{重さ}g\"に変換する")]
+        [Xunit.SkippableFactAttribute(DisplayName="キッチンスケールで測った重さがそれ以外なら\"{重さ}g\"という文字列に変換する")]
         [Xunit.TraitAttribute("FeatureTitle", "キッチンスケールで測った重さを文字列に変換する")]
-        [Xunit.TraitAttribute("Description", "キッチンスケールで測った重さがそれ以外なら\"{重さ}g\"に変換する")]
-        public virtual void キッチンスケールで測った重さがそれ以外なら重さGに変換する()
+        [Xunit.TraitAttribute("Description", "キッチンスケールで測った重さがそれ以外なら\"{重さ}g\"という文字列に変換する")]
+        public virtual void キッチンスケールで測った重さがそれ以外なら重さGという文字列に変換する()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("キッチンスケールで測った重さがそれ以外なら\"{重さ}g\"に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("キッチンスケールで測った重さがそれ以外なら\"{重さ}g\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 18
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
