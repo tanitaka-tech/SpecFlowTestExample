@@ -5,15 +5,17 @@ namespace SpecFlowTestExample.Specs.Steps;
 [Binding]
 public class KitchenScaleTest
 {
-    [Given(@"重さが(.*)")]
-    public void Given重さが(int p0)
+    KitchenScale _kitchenScale = null!;
+    
+    [Given(@"重さが(.*)g")]
+    public void Given重さが(int weight)
     {
-        ScenarioContext.StepIsPending();
+        _kitchenScale = new KitchenScale(weight);
     }
     
-    [Then(@"変換後の文字列は""(.*)""")]
-    public void Then変換後の文字列は(string expected)
+    [Then(@"重さを変換後の文字列は""(.*)""")]
+    public void Then重さを変換後の文字列は(string expected)
     {
-        ScenarioContext.StepIsPending();
+        Assert.Equal(expected, _kitchenScale.GetWeightString());
     }
 }

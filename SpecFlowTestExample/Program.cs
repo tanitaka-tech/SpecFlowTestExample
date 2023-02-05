@@ -24,3 +24,23 @@ public class ForPetThermometer
         return "暑い";
     }
 }
+
+public class KitchenScale
+{
+    int Weight { get; }  // 重さ
+    const string ErrorString = "EEEE";
+    
+    public KitchenScale(int weight)
+    {
+        Weight = weight;
+    }
+
+    public string GetWeightString()
+    {
+        if (Weight < 0)
+        {
+            return ErrorString;
+        }
+        return "";
+    }
+}
