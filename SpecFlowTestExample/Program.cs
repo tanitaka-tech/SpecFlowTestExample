@@ -45,6 +45,6 @@ public class KitchenScale
         {
             return ErrorString;
         }
-        return ErrorString;
+        return $"{Weight}g";
     }
 }
