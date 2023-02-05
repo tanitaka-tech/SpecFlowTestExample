@@ -14,8 +14,8 @@ public class ForPetRoomThermometerStep
     }
 
     [Then(@"変換後の文字列は""(.*)""")]
-    public void Then変換後の文字列は(string 寒い)
+    public void Then変換後の文字列は(string expected)
     {
-        Assert.Equal(_forPetThermometer.GetComfortLevelString(), 寒い);
+        Assert.Equal(expected ,_forPetThermometer.GetComfortLevelString());
     }
 }

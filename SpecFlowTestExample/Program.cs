@@ -17,6 +17,10 @@ public class ForPetThermometer
         {
             return "寒い";
         }
-        return "寒い";
+        else if (Temperature < 26.0)
+        {
+            return "快適";
+        }
+        return "暑い";
     }
 }

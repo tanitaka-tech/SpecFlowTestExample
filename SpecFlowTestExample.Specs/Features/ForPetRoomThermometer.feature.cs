@@ -83,14 +83,12 @@ namespace SpecFlowTestExample.Specs.Features
         [Xunit.SkippableFactAttribute(DisplayName="温度が24.0度未満の時は\"寒い\"という文字列に変換する")]
         [Xunit.TraitAttribute("FeatureTitle", "ペット用の室温計の温度を表示する")]
         [Xunit.TraitAttribute("Description", "温度が24.0度未満の時は\"寒い\"という文字列に変換する")]
-        [Xunit.TraitAttribute("Category", "mytag")]
         public virtual void 温度が24_0度未満の時は寒いという文字列に変換する()
         {
-            string[] tagsOfScenario = new string[] {
-                    "mytag"};
+            string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("温度が24.0度未満の時は\"寒い\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 7
+#line 6
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -110,17 +108,105 @@ namespace SpecFlowTestExample.Specs.Features
             else
             {
                 this.ScenarioStart();
-#line 8
+#line 7
   testRunner.Given("温度が23.9", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 9
+#line 8
   testRunner.Then("変換後の文字列は\"寒い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 10
+#line 9
   testRunner.Given("温度が0.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 11
+#line 10
   testRunner.Then("変換後の文字列は\"寒い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.SkippableFactAttribute(DisplayName="温度が24.0度以上26.0度未満の時は\"快適\"という文字列に変換する")]
+        [Xunit.TraitAttribute("FeatureTitle", "ペット用の室温計の温度を表示する")]
+        [Xunit.TraitAttribute("Description", "温度が24.0度以上26.0度未満の時は\"快適\"という文字列に変換する")]
+        public virtual void 温度が24_0度以上26_0度未満の時は快適という文字列に変換する()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("温度が24.0度以上26.0度未満の時は\"快適\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 12
+ this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 13
+  testRunner.Given("温度が24.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 14
+  testRunner.Then("変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 15
+  testRunner.Given("温度が25.9", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 16
+  testRunner.Then("変換後の文字列は\"快適\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.SkippableFactAttribute(DisplayName="温度が26.0度以上の時は\"暑い\"という文字列に変換する")]
+        [Xunit.TraitAttribute("FeatureTitle", "ペット用の室温計の温度を表示する")]
+        [Xunit.TraitAttribute("Description", "温度が26.0度以上の時は\"暑い\"という文字列に変換する")]
+        public virtual void 温度が26_0度以上の時は暑いという文字列に変換する()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("温度が26.0度以上の時は\"暑い\"という文字列に変換する", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 18
+ this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 19
+  testRunner.Given("温度が26.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 20
+  testRunner.Then("変換後の文字列は\"暑い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 21
+  testRunner.Given("温度が100.0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 22
+  testRunner.Then("変換後の文字列は\"暑い\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
