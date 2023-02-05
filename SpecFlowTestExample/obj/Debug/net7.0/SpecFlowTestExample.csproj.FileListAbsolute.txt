@@ -1,0 +1,15 @@
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/bin/Debug/net7.0/SpecFlowTestExample
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/bin/Debug/net7.0/SpecFlowTestExample.deps.json
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/bin/Debug/net7.0/SpecFlowTestExample.runtimeconfig.json
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/bin/Debug/net7.0/SpecFlowTestExample.dll
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/bin/Debug/net7.0/SpecFlowTestExample.pdb
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/obj/Debug/net7.0/SpecFlowTestExample.csproj.AssemblyReference.cache
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/obj/Debug/net7.0/SpecFlowTestExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/obj/Debug/net7.0/SpecFlowTestExample.AssemblyInfoInputs.cache
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/obj/Debug/net7.0/SpecFlowTestExample.AssemblyInfo.cs
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/obj/Debug/net7.0/SpecFlowTestExample.csproj.CoreCompileInputs.cache
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/obj/Debug/net7.0/SpecFlowTestExample.dll
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/obj/Debug/net7.0/refint/SpecFlowTestExample.dll
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/obj/Debug/net7.0/SpecFlowTestExample.pdb
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/obj/Debug/net7.0/SpecFlowTestExample.genruntimeconfig.cache
+/Users/masaya.tanitaka/Documents/GitHub/SpecFlowTestExample/SpecFlowTestExample/obj/Debug/net7.0/ref/SpecFlowTestExample.dll
