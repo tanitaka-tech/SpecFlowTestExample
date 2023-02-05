@@ -41,6 +41,10 @@ public class KitchenScale
         {
             return ErrorString;
         }
-        return "";
+        else if (Weight > 2000)
+        {
+            return ErrorString;
+        }
+        return ErrorString;
     }
 }
